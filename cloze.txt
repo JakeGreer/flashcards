@@ -1,1 +1,1 @@
-Full Text: undefined | Partial Text: Hello there ... | Cloze: pupper ; Full Text: undefined | Partial Text: billy is a ... god | Cloze: fucking ; Full Text: undefined | Partial Text: billy is a ... god | Cloze: fucking ; Full Text: undefined | Partial Text: ... | Cloze: fdagssda ; Full Text: undefined | Partial Text: ... there | Cloze: hello ; 
+
