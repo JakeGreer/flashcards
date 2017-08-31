@@ -2,8 +2,9 @@ function ClozeCard(text, cloze) {
     this.text = text;
     this.cloze = cloze.toLowerCase();
     this.ellipses = text.replace(cloze, "...");
-    console.log("\n***************CLOZE CARD***************\n");
+    console.log("\n__________________________ CLOZE CARD __________________________\n");
     console.log("Full Text: " + this.text + "\nPartial Text: " + this.ellipses + "\nCloze: " + this.cloze);
+    console.log("\n________________________________________________________________\n");
     var fs = require("fs");
 
     fs.appendFile("cloze.txt", "Full Text: " + this.fulltext + " | Partial Text: " + this.ellipses + " | Cloze: " + this.cloze + " ; ", function(err) {

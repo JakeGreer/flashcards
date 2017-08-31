@@ -1,8 +1,8 @@
 //USER INTERFACE
 var inquirer = require("inquirer");
-inquirer
 //Prompts the user which kind of flashcards they want and prompts for the front and the back of the card.
 //COnfirms are implemented for error checking the user.
+inquirer
     .prompt([{
             type: "list",
             message: "What type of flashcard?",
@@ -24,7 +24,7 @@ inquirer
             type: "confirm",
             message: "Are you sure:",
             name: "confirm",
-            default: false
+            default: true
         },
         {
             type: "input",
@@ -35,7 +35,7 @@ inquirer
             type: "confirm",
             message: "Are you sure:",
             name: "confirm",
-            default: false
+            default: true
         }
     ])
     .then(function(inquirerResponse) {
